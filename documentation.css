@@ -1,0 +1,95 @@
+/*stop dont look at my horrendous code please*/
+body {
+  font-family: arial, sans-serif, serif;
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  color: rgb(60,60,60);
+  text-align: left;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+header {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 500;
+}
+#nav-header {
+  margin: 0;
+  padding: 10px;
+}
+li {
+  margin: 15px 0 0 0;
+}
+
+.nav-div li{
+  margin-left: -20px;
+  margin-top: 0;
+  border-bottom: 2px solid rgb(40,40,40);
+  border-collapse: collapse;
+  list-style-type: none;
+}
+a[href='#Introduction']{
+  margin-top: 10px;
+  border-top: 2px solid rgb(70,70,70);
+}
+.container {
+  width: 65%;
+  margin: 20px 0 20px;
+  margin-left: 300px;
+  padding: 0 10px;
+}
+.nav-div {
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid rgb(40,40,40);
+  margin: auto;
+  position: fixed;
+  top: 10px;
+}
+#main-doc p {
+  margin-left: 15px;
+}
+code {
+  background-color: rgb(230,230,230);
+  display: block;
+  margin: 10px;
+  margin-left: 30px;
+  padding: 10px;
+  font-family: monospace, serif;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 800px) {
+  body {
+	margin: 10px 0;
+  }
+  .container {
+    margin: 20px auto 20px auto;
+    width: 90%;
+  }
+  .nav-div {
+	position: static;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	border-right: 0;
+  }
+  .nav-div-2 {
+	border-left: 2px solid rgb(40,40,40);
+	border-right: 2px solid rgb(40,40,40);
+  }
+  #nav-header {
+	border: 0;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 2.5rem;
+  }
+}
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
